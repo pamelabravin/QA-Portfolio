@@ -481,3 +481,35 @@ The following features will not be tested:
 - Bug Reports
 - Exploratory Testing Report
 - Test Summary Report
+
+
+  Test Summary Report
+
+Project
+
+Amazon Login Testing
+
+Testing Period
+
+June 2026
+
+Test Execution Summary
+
+* Total Test Cases: 5
+* Passed: 5
+* Failed: 0
+* Blocked: 0
+
+Defects Found
+
+* No critical defects identified during testing.
+
+Testing Activities Performed
+
+* Functional Testing
+* Exploratory Testing
+* Negative Testing
+
+Conclusion
+
+The login functionality behaved as expected during testing. No critical issues were identified, and the feature is considered stable for release.
