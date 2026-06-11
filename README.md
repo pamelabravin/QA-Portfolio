@@ -104,3 +104,119 @@ Login button remains disabled.
 - Tested invalid credentials.
 - Tested password visibility option.
 - No critical defects found.
+---
+
+# Amazon Login Testing Project
+
+## Project Overview
+
+This project focuses on manual testing of Amazon's login functionality, including positive and negative test scenarios, bug reporting, and exploratory testing activities.
+
+## Test Cases
+
+### TC-AMZ-001 - Successful Login
+
+**Objective:** Verify that a registered user can log in with valid credentials.
+
+**Steps:**
+1. Open Amazon login page.
+2. Enter valid email.
+3. Click Continue.
+4. Enter valid password.
+5. Click Sign In.
+
+**Expected Result:**
+User is successfully logged into the account.
+
+---
+
+### TC-AMZ-002 - Invalid Password
+
+**Objective:** Verify system behavior when an incorrect password is entered.
+
+**Steps:**
+1. Open login page.
+2. Enter valid email.
+3. Enter invalid password.
+4. Click Sign In.
+
+**Expected Result:**
+Error message is displayed.
+
+---
+
+### TC-AMZ-003 - Empty Email Field
+
+**Objective:** Verify validation for empty email field.
+
+**Steps:**
+1. Open login page.
+2. Leave email field empty.
+3. Click Continue.
+
+**Expected Result:**
+Validation message appears.
+
+---
+
+### TC-AMZ-004 - Empty Password Field
+
+**Expected Result:**
+Validation message appears.
+
+---
+
+### TC-AMZ-005 - Password Visibility Toggle
+
+**Expected Result:**
+Password visibility changes correctly.
+
+## Bug Reports
+
+### BUG-AMZ-001
+
+**Title:** Password field accepts leading spaces.
+
+**Severity:** Medium
+
+**Priority:** Medium
+
+**Expected Result:**
+Leading spaces should be trimmed.
+
+**Actual Result:**
+Spaces are accepted.
+
+---
+
+### BUG-AMZ-002
+
+**Title:** Error message overlaps login form on small screens.
+
+**Severity:** Low
+
+**Priority:** Low
+
+**Expected Result:**
+Responsive layout maintained.
+
+**Actual Result:**
+UI overlap occurs.
+
+## Exploratory Testing Session
+
+### Session 001
+
+**Area:** Login Page
+
+**Duration:** 45 minutes
+
+**Scope:**
+- Email validation
+- Password validation
+- Error handling
+- Responsive behavior
+
+**Findings:**
+- No critical issues identified.
+- Minor UI inconsistencies observed on mobile devices.
