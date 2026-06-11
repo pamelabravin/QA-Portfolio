@@ -220,3 +220,100 @@ UI overlap occurs.
 **Findings:**
 - No critical issues identified.
 - Minor UI inconsistencies observed on mobile devices.
+---
+
+# Netflix Sign-Up Testing Project
+
+## Project Overview
+
+This project focuses on manual testing of Netflix's account registration flow, validating user creation, form validations, error handling, and user experience.
+
+## Test Cases
+
+### TC-NFLX-001 - Successful Account Registration
+
+Objective: Verify that a new user can successfully create an account.
+
+Steps:
+
+1. Open Netflix sign-up page.
+2. Enter valid email.
+3. Create valid password.
+4. Select a subscription plan.
+5. Complete registration.
+
+Expected Result:
+
+Account is successfully created.
+
+---
+
+### TC-NFLX-002 - Invalid Email Format
+
+Objective: Verify validation for invalid email addresses.
+
+Steps:
+
+1. Open registration page.
+2. Enter invalid email format.
+3. Click Continue.
+
+Expected Result:
+
+Validation message is displayed.
+
+---
+
+### TC-NFLX-003 - Empty Required Fields
+
+Objective: Verify mandatory field validation.
+
+Steps:
+
+1. Leave required fields blank.
+2. Click Continue.
+
+Expected Result:
+
+Required field error messages appear.
+
+---
+
+## Bug Report
+
+### BUG-NFLX-001
+
+Title: Continue button remains enabled with invalid email format.
+
+Severity: Medium
+
+Priority: Medium
+
+Steps to Reproduce:
+
+1. Open registration page.
+2. Enter invalid email.
+3. Observe Continue button.
+
+Expected Result:
+
+Button remains disabled.
+
+Actual Result:
+
+Button remains enabled.
+
+---
+
+## Exploratory Testing Session
+
+Area Tested: Registration Flow
+
+Duration: 45 minutes
+
+Findings:
+
+- Tested multiple email formats.
+- Verified password validation rules.
+- Tested browser refresh behavior.
+- No critical issues identified.
