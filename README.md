@@ -31,9 +31,9 @@ Currently developing expertise in:
   
 ## Contact
 
-LinkedIn: www.linkedin.com/in/pamelabravin
-GitHub: github.com/pamelabravin
-
+- LinkedIn: www.linkedin.com/in/pamelabravin
+- GitHub: github.com/pamelabravin
+  
 ## Projects
 
 ### [Amazon Login Testing](./Amazon-Login-Testing)
