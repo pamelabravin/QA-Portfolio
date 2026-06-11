@@ -536,3 +536,19 @@ Login button becomes active.
 
 **Actual Result:**
 Login button remains disabled.
+
+
+
+### Exploratory Testing Session
+
+**Area Tested:** Amazon Login Page
+
+**Duration:** 30 minutes
+
+**Findings:**
+
+- Tested email validation.
+- Tested password validation.
+- Tested error messages.
+- Tested password visibility toggle.
+- No critical defects found.
