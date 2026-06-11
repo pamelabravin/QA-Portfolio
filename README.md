@@ -513,3 +513,26 @@ Testing Activities Performed
 Conclusion
 
 The login functionality behaved as expected during testing. No critical issues were identified, and the feature is considered stable for release.
+
+
+
+### BUG-AMZ-001
+
+**Title:** Login button remains disabled after entering valid credentials
+
+**Severity:** High
+
+**Priority:** High
+
+**Steps to Reproduce:**
+
+1. Open Amazon login page
+2. Enter valid email
+3. Enter valid password
+4. Observe login button
+
+**Expected Result:**
+Login button becomes active.
+
+**Actual Result:**
+Login button remains disabled.
