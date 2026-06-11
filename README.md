@@ -317,3 +317,103 @@ Findings:
 - Verified password validation rules.
 - Tested browser refresh behavior.
 - No critical issues identified.
+---
+
+# E-commerce Checkout Testing Project
+
+## Project Overview
+
+This project focuses on manual testing of an e-commerce checkout process, validating cart functionality, payment flow, order confirmation, and error handling.
+
+## Test Cases
+
+### TC-ECOM-001 - Successful Checkout
+
+Objective: Verify that a customer can complete a purchase successfully.
+
+Steps:
+
+1. Add product to cart.
+2. Proceed to checkout.
+3. Enter shipping information.
+4. Select payment method.
+5. Confirm order.
+
+Expected Result:
+
+Order is placed successfully and confirmation page is displayed.
+
+---
+
+### TC-ECOM-002 - Empty Shipping Address
+
+Objective: Verify required field validation.
+
+Steps:
+
+1. Add product to cart.
+2. Proceed to checkout.
+3. Leave shipping address blank.
+4. Click Continue.
+
+Expected Result:
+
+Validation message is displayed.
+
+---
+
+### TC-ECOM-003 - Invalid Credit Card Number
+
+Objective: Verify payment validation.
+
+Steps:
+
+1. Proceed to payment step.
+2. Enter invalid card number.
+3. Submit payment.
+
+Expected Result:
+
+Error message is displayed and payment is rejected.
+
+---
+
+## Bug Report
+
+### BUG-ECOM-001
+
+Title: Order total does not update after removing item from cart.
+
+Severity: High
+
+Priority: High
+
+Steps to Reproduce:
+
+1. Add two products to cart.
+2. Remove one product.
+3. Observe order total.
+
+Expected Result:
+
+Order total updates correctly.
+
+Actual Result:
+
+Order total remains unchanged.
+
+---
+
+## Exploratory Testing Session
+
+Area Tested: Checkout Process
+
+Duration: 60 minutes
+
+Findings:
+
+- Tested cart updates.
+- Verified coupon code validation.
+- Tested payment error handling.
+- Confirmed order confirmation workflow.
+- No critical defects found.
