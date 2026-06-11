@@ -29,45 +29,20 @@ Currently developing expertise in:
 - Postman
 - Agile/Scrum
   
-
 ## Contact
 
 LinkedIn: www.linkedin.com/in/pamelabravin
 GitHub: github.com/pamelabravin
-GitHub: github.com/pamelabravin
-
 
 ## Projects
 
-### Amazon Login Testing
-- Test Plan
-- Test Cases
-- Bug Report
-- Test Summary Report
+### [Amazon Login Testing](./Amazon-Login-Testing)
 
-### Banking App Testing
-- Test Plan
-- Test Cases
-- Bug Report
-- Exploratory Testing
-- Test Summary Report
+### [Banking App Testing](./Banking-App-Testing)
 
-### E-commerce Checkout Testing
-- Test Plan
-- Test Cases
-- Bug Report
-- Exploratory Testing
-- Test Summary Report
+### [E-commerce Checkout Testing](./E-commerce-Checkout-Testing)
 
-### Netflix Sign-Up Testing
-- Test Plan
-- Test Cases
-- Bug Report
-- Test Summary Report
+### [Netflix Sign-Up Testing](./Netflix-Sign-Up-Testing)
 
-### SauceDemo Testing
-- Test Plan
-- Test Cases
-- Bug Report
-- Exploratory Testing
-- Test Summary Report
+### [SauceDemo Testing](./SauceDemo-Testing)
+
