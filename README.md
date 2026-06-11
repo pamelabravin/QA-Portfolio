@@ -28,10 +28,7 @@ Currently developing expertise in:
 - Jira
 - Postman
 - Agile/Scrum
-
-## Portfolio Projects
-
-- Amazon Login Testing
+  
 
 ## Contact
 
